@@ -193,9 +193,9 @@ autoketik = false
 autoregister = setting.user_register
 typemenu = 'document'
 img = setting.img
-baper = 'AYO TOPUP DI BYY STORE'
-apiku = 'https://github.com/Frmnsyhh'
-gc_wa_lu = 'https://chat.whatsapp.com/K8EOw7TBvTh9PgJgKmaWUq' //klo gk punya gc wa gk usah di ganti 👍
+baper = 'SUB YT ZEEONE OFC'
+apiku = 'https://zeeoneofc.github.io/'
+gc_wa_lu = 'https://chat.whatsapp.com/EU890BcXjyBDkNaUT5WmYV' //klo gk punya gc wa gk usah di ganti 👍
 targetpc = setting.ownerNumberr
 owner = targetpc
 fake = setting.fake
@@ -2297,7 +2297,7 @@ let papako = [{
 										}]
 								sendButLocation(from, teks , `Thank for verification\n© ${ownername}`,pp_userz, papako, {contextInfo: { mentionedJid: [sender]}})
                 break
-	case 'tod': case 'help':
+	case 'menu': case 'help':
 			try {
 				chatt = await alpha.getProfilePicture(sender)
 				} catch {
