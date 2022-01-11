@@ -2297,7 +2297,7 @@ let papako = [{
 										}]
 								sendButLocation(from, teks , `Thank for verification\n© ${ownername}`,pp_userz, papako, {contextInfo: { mentionedJid: [sender]}})
                 break
-	case 'menu': case 'help':
+	case 'menuu': case 'help':
 			try {
 				chatt = await alpha.getProfilePicture(sender)
 				} catch {
